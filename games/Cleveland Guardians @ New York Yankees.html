@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple and Sleek Webpage</title>
+    <style>
+        body {
+            font-family: 'Inconsolata', monospace;
+            margin: 17px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 21px;
+            justify-content: center;
+        }
+        .box {
+			font-size: 0.9em;
+			line-height: 1em;
+			background-color: #fafafa;
+			border: 1px solid #bbb;
+			border-radius: 3px;
+			padding: 20px;
+			margin: 10px 0;
+			box-shadow: 0px 0px 1px 1px rgba(100, 100, 100, 0.2);
+			overflow-x: auto;
+			width: 35%;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        h2, h4 {
+            text-align: center;
+            margin: 2px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 2px;
+            text-align: left;
+            border: 1px solid #ddd;
+        }
+        @media (max-width: 700px) {
+            .box {
+                width: 75%;
+                max-width: none;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Cleveland Guardians @ New York Yankees</h2>
+    <h4>Gavin Williams vs Gerrit Cole</h4>
+    <h4>Partly Cloudy, 9 mph, Out To RF</h4>
+    <h4>12:05</h4>
+
+
+    <div class="container">
+        <div class="box">
+            <h3>Gavin Williams</h3>
+            <table> <tr><td>Gavin Williams RHP:</td><td>AGE 25, PICK #23 2021</td></tr> <tr><td>WL  | ERA | IP:</td><td>2-5  | 5.02 | 43.0</td></tr> <tr><td>AVG | SLG:</td><td>.266 | .434</td></tr> <tr><td>K   | BB:</td><td>9.84 | 3.14</td></tr> <tr><td>BARREL | WIFF:</td><td>.111 | .241</td></tr> <tr><td>STRIKE 1 | MEATBALL:</td><td>.600 | .079</td></tr> <tr><td>LAST 4:</td><td></td></tr> <tr><td>08/16  @ Brewers:</td><td>4.0 IP, 5 ER, 5 K, 2 BB, 6 H</td></tr> <tr><td>08/10  @ Twins:</td><td>6.0 IP, ER, 3 K, 0 BB, 4 H</td></tr> <tr><td>08/04 vs Orioles:</td><td>4.0 IP, 6 ER, 8 K, 2 BB, 8 H</td></tr> <tr><td>07/30  @ Tigers:</td><td>5.0 IP, 0 ER, 8 K, BB, 2 H</td></tr> <tr><td>never faced New York Yankees:</td><td></td></tr> <tr><td>CAREER:</td><td>125.0 IP, 54 ER, 128 K, 52 BB, 112 H</td></tr> <tr><td>1ST INNING:</td><td>9.0 IP, 5 ER, 11 K, 2 BB, 10 H</td></tr> <tr><td>RUNNER ON:</td><td>AVG .241, OBP .307, SLG .430, BB% 2.66</td></tr> <tr><td>Four-seam FB:</td><td>54%, 97 MPH, 2319 SPIN</td></tr> <tr><td>Curveball:</td><td>21%, 80 MPH, 2371 SPIN</td></tr> <tr><td>Slider:</td><td>11%, 88 MPH, 2336 SPIN</td></tr> </table>
+        </div>
+        <div class="box">
+            <h3>Gerrit Cole</h3>
+			<table> <tr><td>Gerrit Cole RHP:</td><td>AGE 33, PICK #1 2011</td></tr> <tr><td>WL  | ERA | IP:</td><td>4-2  | 4.15 | 52.0</td></tr> <tr><td>AVG | SLG:</td><td>.268 | .454</td></tr> <tr><td>K   | BB:</td><td>10.38 | 2.77</td></tr> <tr><td>BARREL | WIFF:</td><td>.108 | .264</td></tr> <tr><td>STRIKE 1 | MEATBALL:</td><td>.700 | .080</td></tr> <tr><td>LAST 4:</td><td> </td></tr> <tr><td>08/16  @ Tigers:</td><td>6.0 IP, 0 ER, 8 K, 2 BB, 4 H</td></tr> <tr><td>08/10 vs Rangers:</td><td>5.1 IP, ER, 10 K, 2 BB, 6 H</td></tr> <tr><td>08/04 vs Jays:</td><td>5.2 IP, 2 ER, 4 K, 0 BB, 6 H</td></tr> <tr><td>07/24 vs Mets:</td><td>5.2 IP, 6 ER, 4 K, 2 BB, 8 H</td></tr> <tr><td>VS OPPONENT:</td><td></td></tr> <tr><td>5/2/23 vs Guardians:</td><td>6.0 IP, 2 ER, 8 K, 3 BB, 5 H</td></tr> <tr><td>4/11/23 vs Guardians:</td><td>7.0 IP, 2 ER, 3 K, 2 BB, 5 H</td></tr> <tr><td>CAREER:</td><td>1911.0 IP, 678 ER, 2212 K, 487 BB, 1604 H</td></tr> <tr><td>1ST INNING:</td><td>10.0 IP, 3 ER, 5 K, 4 BB, 9 H</td></tr> <tr><td>RUNNER ON:</td><td>AVG .229, OBP .326, SLG .386, BB% 3.86</td></tr> <tr><td>Four-seam FB:</td><td>46%, 96 MPH, 2359 SPIN</td></tr> <tr><td>Cutter:</td><td>19%, 91 MPH, 2476 SPIN</td></tr> <tr><td>Knuckle Curve:</td><td>17%, 83 MPH, 2779 SPIN</td></tr> </table>
+			</div>
+    </div>
+
+    <div class="container">
+        <div class="box">
+            <h3>Cleveland Guardians</h3>
+			<table> <tr><td>CLEVELAND GUARDIANS:</td><td>73-53</td></tr> <tr><td>R:</td><td>#13 573</td></tr> <tr><td>OPS:</td><td>#17 .703</td></tr> <tr><td>José Ramírez:</td><td>AVG .274, HR 32, OBP .329, SLG .531</td></tr> <tr><td>Steven Kwan:</td><td>AVG .311, HR 13, OBP .372, SLG .459</td></tr> <tr><td>Andrés Giménez:</td><td>AVG .253, HR 05, OBP .304, SLG .331</td></tr> <tr><td>Josh Naylor:</td><td>AVG .240, HR 27, OBP .319, SLG .469</td></tr> <tr><td>David Fry:</td><td>AVG .266, HR 12, OBP .364, SLG .448</td></tr> <tr><td>Tyler Freeman:</td><td>AVG .211, HR 07, OBP .307, SLG .328</td></tr> <tr><td>Will Brennan:</td><td>AVG .247, HR 08, OBP .297, SLG .384 
+</td></tr> <tr><td>.LAST 10:</td><td>AVG .202, HR 09, OPS .625</td></tr> <tr><td>.Will Brennan:</td><td>AVG .281, HR 00, OBP .281, SLG .375</td></tr> <tr><td>.Jhonkensy Noel:</td><td>AVG .276, HR 04, OBP .364, SLG .724</td></tr> <tr><td>.Josh Naylor:</td><td>AVG .211, HR 01, OBP .286, SLG .316</td></tr> <tr><td>.Gabriel Arias:</td><td>AVG .259, HR 01, OBP .286, SLG .444</td></tr> <tr><td>.José Ramírez:</td><td>AVG .184, HR 02, OBP .279, SLG .395</td></tr> <tr><td>.Steven Kwan:</td><td>AVG .158, HR 02, OBP .273, SLG .316</td></tr> <tr><td>VS SP:</td><td></td></tr> <tr><td>..Will Brennan:</td><td>06 AB, 2 H, 0 BB, 0 HR, 1 K</td></tr> <tr><td>..Steven Kwan:</td><td>10 AB, 1 H, 1 BB, 0 HR, 2 K</td></tr> <tr><td>RECENT SCORES:</td><td></td></tr> <tr><td>CLE 1 @ NYY 8:</td><td>W- Nestor Cortes  L- Joey Cantillo</td></tr> <tr><td>CLE 9 @ NYY 5:</td><td>W- Tim Herrin  L- Tim Mayza</td></tr> <tr><td>CLE 0 @ MIL 2:</td><td>W- Colin Rea  L- Ben Lively</td></tr> <tr><td>CLE 1 @ MIL 2:</td><td>W- Freddy Peralta  L- Tanner Bibee</td></tr> <tr><td>vs RHP:</td><td>AVG .233, OBP .303, OPS .686</td></tr> <tr><td>vs LHP:</td><td>AVG .249, OBP .321, OPS .745</td></tr> <tr><td>Ahead /Count:</td><td>AVG .279, OBP .461, OPS .949</td></tr> <tr><td>Behind /Count:</td><td>AVG .214, OBP .225, OPS .567</td></tr> </table>
+        </div>
+        <div class="box">
+            <h3>New York Yankees</h3>
+			<table> <tr><td>NEW YORK YANKEES:</td><td>74-53</td></tr> <tr><td>R:</td><td>#02 648</td></tr> <tr><td>OPS:</td><td>#01 .774</td></tr> <tr><td>Aaron Judge:</td><td>AVG .334, HR 47, OBP .465, SLG .722</td></tr> <tr><td>Juan Soto:</td><td>AVG .302, HR 36, OBP .433, SLG .612</td></tr> <tr><td>Anthony Volpe:</td><td>AVG .249, HR 11, OBP .299, SLG .387</td></tr> <tr><td>Alex Verdugo:</td><td>AVG .229, HR 10, OBP .290, SLG .356</td></tr> <tr><td>Gleyber Torres:</td><td>AVG .237, HR 10, OBP .313, SLG .348</td></tr> <tr><td>Giancarlo Stanton:</td><td>AVG .240, HR 20, OBP .299, SLG .470</td></tr> <tr><td>Oswaldo Cabrera:</td><td>AVG .248, HR 08, OBP .293, SLG .372 
+</td></tr> <tr><td>.LAST 10:</td><td>AVG .223, HR 13, OPS .741</td></tr> <tr><td>.Aaron Judge:</td><td>AVG .432, HR 06, OBP .533, SLG 1.027</td></tr> <tr><td>.Jazz Chisholm Jr.:</td><td>AVG .289, HR 03, OBP .341, SLG .553</td></tr> <tr><td>.Jon Berti:</td><td>AVG .294, HR 01, OBP .333, SLG .382</td></tr> <tr><td>.Austin Wells:</td><td>AVG .286, HR 01, OBP .324, SLG .457</td></tr> <tr><td>.Gleyber Torres:</td><td>AVG .263, HR 00, OBP .378, SLG .289</td></tr> <tr><td>.Juan Soto:</td><td>AVG .257, HR 08, OBP .435, SLG .971</td></tr> <tr><td>VS SP:</td><td></td></tr> <tr><td>RECENT SCORES:</td><td></td></tr> <tr><td>CLE 1 @ NYY 8:</td><td>W- Nestor Cortes  L- Joey Cantillo</td></tr> <tr><td>CLE 9 @ NYY 5:</td><td>W- Tim Herrin  L- Tim Mayza</td></tr> <tr><td>NYY 2 @ DET 3:</td><td>W- Beau Brieske  L- Mark Leiter Jr.</td></tr> <tr><td>NYY 0 @ DET 4:</td><td>W- Keider Montero  L- Carlos Rod&#243;n</td></tr> <tr><td>vs RHP:</td><td>AVG .258, OBP .337, OPS .795</td></tr> <tr><td>vs LHP:</td><td>AVG .233, OBP .331, OPS .721</td></tr> <tr><td>Ahead  /Count:</td><td>AVG .284, OBP .501, OPS 1.007</td></tr> <tr><td>Behind /Count:</td><td>AVG .214, OBP .218, OPS .579</td></tr> </table>
+        </div>
+    </div>
+
+</body>
+</html>
+
+
