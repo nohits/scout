@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple and Sleek Webpage</title>
+    <style>
+        body {
+            font-family: 'Inconsolata', monospace;
+            margin: 17px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 21px;
+            justify-content: center;
+        }
+        .box {
+			font-size: 0.9em;
+			line-height: 1em;
+			background-color: #fafafa;
+			border: 1px solid #bbb;
+			border-radius: 3px;
+			padding: 20px;
+			margin: 10px 0;
+			box-shadow: 0px 0px 1px 1px rgba(100, 100, 100, 0.2);
+			overflow-x: auto;
+			width: 35%;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        h2, h4 {
+            text-align: center;
+            margin: 2px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 2px;
+            text-align: left;
+            border: 1px solid #ddd;
+        }
+        @media (max-width: 700px) {
+            .box {
+                width: 75%;
+                max-width: none;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Colorado Rockies @ New York Yankees</h2>
+    <h4>Kyle Freeland vs Carlos Rodón</h4>
+    <h4>, </h4>
+    <h4>6:05</h4>
+
+
+    <div class="container">
+        <div class="box">
+            <h3>Kyle Freeland</h3>
+            <table> <tr><td>Kyle Freeland LHP:</td><td>AGE 31, PICK #8 2014</td></tr> <tr><td>WL  | ERA | IP:</td><td>3-5  | 5.97 | 72.1</td></tr> <tr><td>AVG | SLG:</td><td>.306 | .497</td></tr> <tr><td>K   | BB:</td><td>7.34 | 2.61</td></tr> <tr><td>BARREL | WIFF:</td><td>.157 | .186</td></tr> <tr><td>STRIKE 1 | MEATBALL:</td><td>.660 | .073</td></tr> <tr><td>LAST 4:</td><td></td></tr> <tr><td>08/17 vs Padres:</td><td>5.0 IP, 5 ER, 3 K, 3 BB, 8 H</td></tr> <tr><td>08/11 vs Braves:</td><td>3.2 IP, 3 ER, K, BB, 4 H</td></tr> <tr><td>08/06 vs Mets:</td><td>4.2 IP, 3 ER, 7 K, 2 BB, 4 H</td></tr> <tr><td>07/31  @ Angels:</td><td>7.0 IP, ER, 6 K, 0 BB, 6 H</td></tr> <tr><td>never faced New York Yankees:</td><td></td></tr> <tr><td>CAREER:</td><td>1056.2 IP, 528 ER, 794 K, 349 BB, 1157 H</td></tr> <tr><td>1ST INNING:</td><td>14.0 IP, 12 ER, 10 K, 2 BB, 11 H</td></tr> <tr><td>RUNNER ON:</td><td>AVG .323, OBP .362, SLG .472, BB% 2.20</td></tr> <tr><td>Sinker:</td><td>26%, 92 MPH, 2293 SPIN</td></tr> <tr><td>Slider:</td><td>22%, 87 MPH, 2341 SPIN</td></tr> <tr><td>Four-seam FB:</td><td>22%, 92 MPH, 2367 SPIN</td></tr> </table>
+        </div>
+        <div class="box">
+            <h3>Carlos Rodón</h3>
+			<table> <tr><td>Carlos Rodón LHP:</td><td>AGE 31, PICK #3 2014</td></tr> <tr><td>WL  | ERA | IP:</td><td>13-8  | 4.34 | 134.2</td></tr> <tr><td>AVG | SLG:</td><td>.239 | .448</td></tr> <tr><td>K   | BB:</td><td>9.89 | 2.94</td></tr> <tr><td>BARREL | WIFF:</td><td>.100 | .295</td></tr> <tr><td>STRIKE 1 | MEATBALL:</td><td>.580 | .071</td></tr> <tr><td>LAST 4:</td><td> </td></tr> <tr><td>08/17  @ Tigers:</td><td>3.1 IP, 4 ER, 5 K, BB, 7 H</td></tr> <tr><td>08/10 vs Rangers:</td><td>5.2 IP, 0 ER, 6 K, 5 BB, 3 H</td></tr> <tr><td>08/03 vs Jays:</td><td>5.1 IP, 3 ER, 8 K, 2 BB, 3 H</td></tr> <tr><td>07/28  @ Sox:</td><td>6.1 IP, 2 ER, 7 K, BB, 5 H</td></tr> <tr><td>VS OPPONENT:</td><td></td></tr> <tr><td>7/14/23 vs Rockies:</td><td>5.0 IP, 4 ER, 6 K, 2 BB, 4 H</td></tr> <tr><td>9/29/22 vs Rockies:</td><td>6.0 IP, 0 ER, 10 K, 0 BB, 2 H</td></tr> <tr><td>CAREER:</td><td>1046.1 IP, 453 ER, 1159 K, 391 BB, 920 H</td></tr> <tr><td>1ST INNING:</td><td>24.2 IP, 27 ER, 29 K, 4 BB, 29 H</td></tr> <tr><td>RUNNER ON:</td><td>AVG .263, OBP .343, SLG .468, BB% 3.65</td></tr> <tr><td>Four-seam FB:</td><td>50%, 96 MPH, 2396 SPIN</td></tr> <tr><td>Slider:</td><td>25%, 87 MPH, 2626 SPIN</td></tr> <tr><td>Changeup:</td><td>12%, 85 MPH, 1650 SPIN</td></tr> </table>
+			</div>
+    </div>
+
+    <div class="container">
+        <div class="box">
+            <h3>Colorado Rockies</h3>
+			<table> <tr><td>COLORADO ROCKIES:</td><td>47-81</td></tr> <tr><td>R:</td><td>#18 541</td></tr> <tr><td>OPS:</td><td>#15 .704</td></tr> <tr><td>Ezequiel Tovar:</td><td>AVG .270, HR 19, OBP .294, SLG .453</td></tr> <tr><td>Brenton Doyle:</td><td>AVG .271, HR 21, OBP .330, SLG .476</td></tr> <tr><td>Brendan Rodgers:</td><td>AVG .279, HR 10, OBP .324, SLG .417</td></tr> <tr><td>Ryan McMahon:</td><td>AVG .247, HR 16, OBP .335, SLG .408</td></tr> <tr><td>Charlie Blackmon:</td><td>AVG .252, HR 08, OBP .321, SLG .391</td></tr> <tr><td>Elias Díaz:</td><td>AVG .270, HR 05, OBP .315, SLG .378</td></tr> <tr><td>Jake Cave:</td><td>AVG .251, HR 06, OBP .294, SLG .394 
+</td></tr> <tr><td>.LAST 10:</td><td>AVG .219, HR 05, OPS .626</td></tr> <tr><td>.Brenton Doyle:</td><td>AVG .343, HR 01, OBP .395, SLG .543</td></tr> <tr><td>.Brendan Rodgers:</td><td>AVG .300, HR 02, OBP .310, SLG .525</td></tr> <tr><td>.Charlie Blackmon:</td><td>AVG .233, HR 01, OBP .250, SLG .302</td></tr> <tr><td>.Michael Toglia:</td><td>AVG .313, HR 01, OBP .463, SLG .563</td></tr> <tr><td>.Kris Bryant:</td><td>AVG .265, HR 00, OBP .350, SLG .324</td></tr> <tr><td>.Jordan Beck:</td><td>AVG .267, HR 00, OBP .371, SLG .300</td></tr> <tr><td>VS SP:</td><td></td></tr> <tr><td>na2:</td><td>05 AB, 2 H, 1 BB, 0 HR, 2 K</td></tr> <tr><td>na1:</td><td>10 AB, 6 H, 2 BB, 1 HR, 1 K</td></tr> <tr><td>RECENT SCORES:</td><td></td></tr> <tr><td>COL 3 @ WSH 8:</td><td>W- Patrick Corbin  L- Cal Quantrill</td></tr> <tr><td>COL 1 @ WSH 6:</td><td>W- Mitchell Parker  L- Tanner Gordon</td></tr> <tr><td>COL 3 @ WSH 1:</td><td>W- Austin Gomber  L- DJ Herz</td></tr> <tr><td>SD 2 @ COL 3:</td><td>W- Angel Chivilli  L- Bryan Hoeing</td></tr> <tr><td>vs RHP:</td><td>AVG .246, OBP .309, OPS .710</td></tr> <tr><td>vs LHP:</td><td>AVG .236, OBP .297, OPS .691</td></tr> <tr><td>Ahead /Count:</td><td>AVG .278, OBP .461, OPS .969</td></tr> <tr><td>Behind /Count:</td><td>AVG .197, OBP .205, OPS .510</td></tr> </table>
+        </div>
+        <div class="box">
+            <h3>New York Yankees</h3>
+			<table> <tr><td>NEW YORK YANKEES:</td><td>75-53</td></tr> <tr><td>R:</td><td>#02 654</td></tr> <tr><td>OPS:</td><td>#01 .774</td></tr> <tr><td>Aaron Judge:</td><td>AVG .334, HR 48, OBP .465, SLG .726</td></tr> <tr><td>Juan Soto:</td><td>AVG .299, HR 36, OBP .430, SLG .607</td></tr> <tr><td>Anthony Volpe:</td><td>AVG .250, HR 11, OBP .303, SLG .389</td></tr> <tr><td>Gleyber Torres:</td><td>AVG .238, HR 10, OBP .316, SLG .348</td></tr> <tr><td>Alex Verdugo:</td><td>AVG .227, HR 10, OBP .288, SLG .353</td></tr> <tr><td>Giancarlo Stanton:</td><td>AVG .241, HR 21, OBP .301, SLG .478</td></tr> <tr><td>Oswaldo Cabrera:</td><td>AVG .249, HR 08, OBP .296, SLG .372 
+</td></tr> <tr><td>.LAST 10:</td><td>AVG .217, HR 15, OPS .753</td></tr> <tr><td>.Aaron Judge:</td><td>AVG .459, HR 07, OBP .556, SLG 1.135</td></tr> <tr><td>.Jazz Chisholm Jr.:</td><td>AVG .289, HR 03, OBP .341, SLG .553</td></tr> <tr><td>.Jon Berti:</td><td>AVG .294, HR 01, OBP .333, SLG .382</td></tr> <tr><td>.Oswaldo Cabrera:</td><td>AVG .310, HR 02, OBP .355, SLG .552</td></tr> <tr><td>.Austin Wells:</td><td>AVG .273, HR 01, OBP .306, SLG .424</td></tr> <tr><td>.Juan Soto:</td><td>AVG .257, HR 08, OBP .435, SLG .971</td></tr> <tr><td>VS SP:</td><td></td></tr> <tr><td>RECENT SCORES:</td><td></td></tr> <tr><td>CLE 0 @ NYY 6:</td><td>W- Gerrit Cole  L- Gavin Williams</td></tr> <tr><td>CLE 1 @ NYY 8:</td><td>W- Nestor Cortes  L- Joey Cantillo</td></tr> <tr><td>CLE 9 @ NYY 5:</td><td>W- Tim Herrin  L- Tim Mayza</td></tr> <tr><td>NYY 2 @ DET 3:</td><td>W- Beau Brieske  L- Mark Leiter Jr.</td></tr> <tr><td>vs RHP:</td><td>AVG .258, OBP .337, OPS .795</td></tr> <tr><td>vs LHP:</td><td>AVG .233, OBP .331, OPS .721</td></tr> <tr><td>Ahead  /Count:</td><td>AVG .284, OBP .503, OPS 1.013</td></tr> <tr><td>Behind /Count:</td><td>AVG .214, OBP .217, OPS .576</td></tr> </table>
+        </div>
+    </div>
+
+</body>
+</html>
+
+

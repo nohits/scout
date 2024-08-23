@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple and Sleek Webpage</title>
+    <style>
+        body {
+            font-family: 'Inconsolata', monospace;
+            margin: 17px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 21px;
+            justify-content: center;
+        }
+        .box {
+			font-size: 0.9em;
+			line-height: 1em;
+			background-color: #fafafa;
+			border: 1px solid #bbb;
+			border-radius: 3px;
+			padding: 20px;
+			margin: 10px 0;
+			box-shadow: 0px 0px 1px 1px rgba(100, 100, 100, 0.2);
+			overflow-x: auto;
+			width: 35%;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        h2, h4 {
+            text-align: center;
+            margin: 2px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 2px;
+            text-align: left;
+            border: 1px solid #ddd;
+        }
+        @media (max-width: 700px) {
+            .box {
+                width: 75%;
+                max-width: none;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Arizona Diamondbacks @ Boston Red Sox</h2>
+    <h4>Ryne Nelson vs Brayan Bello</h4>
+    <h4>, </h4>
+    <h4>6:10</h4>
+
+
+    <div class="container">
+        <div class="box">
+            <h3>Ryne Nelson</h3>
+            <table> <tr><td>Ryne Nelson RHP:</td><td>AGE 26, PICK #56 2019</td></tr> <tr><td>WL  | ERA | IP:</td><td>8-6  | 4.35 | 124.0</td></tr> <tr><td>AVG | SLG:</td><td>.271 | .444</td></tr> <tr><td>K   | BB:</td><td>7.33 | 2.10</td></tr> <tr><td>BARREL | WIFF:</td><td>.120 | .183</td></tr> <tr><td>STRIKE 1 | MEATBALL:</td><td>.690 | .083</td></tr> <tr><td>LAST 4:</td><td></td></tr> <tr><td>08/16  @ Rays:</td><td>6.1 IP, ER, 6 K, 0 BB, 5 H</td></tr> <tr><td>08/09 vs Phillies:</td><td>7.1 IP, 2 ER, 9 K, BB, 3 H</td></tr> <tr><td>08/04  @ Pirates:</td><td>5.0 IP, 4 ER, 7 K, 2 BB, 6 H</td></tr> <tr><td>07/30 vs Nationals:</td><td>7.0 IP, 0 ER, 9 K, 2 BB, 2 H</td></tr> <tr><td>never faced Boston Red Sox:</td><td></td></tr> <tr><td>CAREER:</td><td>286.1 IP, 148 ER, 213 K, 81 BB, 299 H</td></tr> <tr><td>1ST INNING:</td><td>21.2 IP, 8 ER, 20 K, 4 BB, 15 H</td></tr> <tr><td>RUNNER ON:</td><td>AVG .245, OBP .294, SLG .405, BB% 2.05</td></tr> <tr><td>Four-seam FB:</td><td>55%, 95 MPH, 2219 SPIN</td></tr> <tr><td>Cutter:</td><td>19%, 91 MPH, 2196 SPIN</td></tr> <tr><td>Changeup:</td><td>10%, 83 MPH, 1962 SPIN</td></tr> </table>
+        </div>
+        <div class="box">
+            <h3>Brayan Bello</h3>
+			<table> <tr><td>Brayan Bello RHP:</td><td>AGE 25, PICK # </td></tr> <tr><td>WL  | ERA | IP:</td><td>11-5  | 4.80 | 123.2</td></tr> <tr><td>AVG | SLG:</td><td>.263 | .434</td></tr> <tr><td>K   | BB:</td><td>8.73 | 3.42</td></tr> <tr><td>BARREL | WIFF:</td><td>.122 | .273</td></tr> <tr><td>STRIKE 1 | MEATBALL:</td><td>.630 | .066</td></tr> <tr><td>LAST 4:</td><td> </td></tr> <tr><td>08/17  @ Orioles:</td><td>6.0 IP, ER, 6 K, 3 BB, 2 H</td></tr> <tr><td>08/12 vs Rangers:</td><td>6.0 IP, ER, 5 K, 3 BB, 4 H</td></tr> <tr><td>08/06  @ Royals:</td><td>4.2 IP, 3 ER, 6 K, 3 BB, 5 H</td></tr> <tr><td>07/31 vs Mariners:</td><td>6.1 IP, 2 ER, 7 K, 2 BB, 7 H</td></tr> <tr><td>never faced Arizona Diamondbacks:</td><td></td></tr> <tr><td>CAREER:</td><td>338.0 IP, 170 ER, 307 K, 119 BB, 367 H</td></tr> <tr><td>1ST INNING:</td><td>23.0 IP, 15 ER, 25 K, 7 BB, 26 H</td></tr> <tr><td>RUNNER ON:</td><td>AVG .256, OBP .336, SLG .422, BB% 3.57</td></tr> <tr><td>Sinker:</td><td>40%, 96 MPH, 2025 SPIN</td></tr> <tr><td>Slider:</td><td>29%, 87 MPH, 2353 SPIN</td></tr> <tr><td>Changeup:</td><td>28%, 87 MPH, 1800 SPIN</td></tr> </table>
+			</div>
+    </div>
+
+    <div class="container">
+        <div class="box">
+            <h3>Arizona Diamondbacks</h3>
+			<table> <tr><td>ARIZONA DIAMONDBACKS:</td><td>72-56</td></tr> <tr><td>R:</td><td>#01 678</td></tr> <tr><td>OPS:</td><td>#03 .765</td></tr> <tr><td>Ketel Marte:</td><td>AVG .298, HR 30, OBP .370, SLG .560</td></tr> <tr><td>Lourdes Gurriel Jr.:</td><td>AVG .274, HR 15, OBP .312, SLG .418</td></tr> <tr><td>Corbin Carroll:</td><td>AVG .222, HR 14, OBP .310, SLG .396</td></tr> <tr><td>Christian Walker:</td><td>AVG .254, HR 23, OBP .338, SLG .476</td></tr> <tr><td>Eugenio Suárez:</td><td>AVG .230, HR 18, OBP .303, SLG .416</td></tr> <tr><td>Jake McCarthy:</td><td>AVG .304, HR 08, OBP .376, SLG .457</td></tr> <tr><td>Joc Pederson:</td><td>AVG .292, HR 20, OBP .406, SLG .553 
+</td></tr> <tr><td>.LAST 10:</td><td>AVG .243, HR 11, OPS .753</td></tr> <tr><td>.Jake McCarthy:</td><td>AVG .341, HR 02, OBP .404, SLG .561</td></tr> <tr><td>.Lourdes Gurriel Jr.:</td><td>AVG .371, HR 01, OBP .463, SLG .514</td></tr> <tr><td>.Adrian Del Castillo:</td><td>AVG .361, HR 03, OBP .425, SLG .667</td></tr> <tr><td>.Gabriel Moreno:</td><td>AVG .367, HR 01, OBP .394, SLG .533</td></tr> <tr><td>.Joc Pederson:</td><td>AVG .385, HR 02, OBP .556, SLG .654</td></tr> <tr><td>.Corbin Carroll:</td><td>AVG .270, HR 04, OBP .341, SLG .649</td></tr> <tr><td>VS SP:</td><td></td></tr> <tr><td>RECENT SCORES:</td><td></td></tr> <tr><td>AZ 10 @ MIA 8:</td><td>W- Dylan Floro  L- Andrew Nardi</td></tr> <tr><td>AZ 3 @ MIA 1:</td><td>W- Eduardo Rodriguez  L- Edward Cabrera</td></tr> <tr><td>AZ 9 @ MIA 6:</td><td>W- Brandon Pfaadt  L- Adam Oller</td></tr> <tr><td>AZ 7 @ TB 8:</td><td>W- Edwin Uceta  L- Justin Martinez</td></tr> <tr><td>vs RHP:</td><td>AVG .251, OBP .329, OPS .761</td></tr> <tr><td>vs LHP:</td><td>AVG .280, OBP .341, OPS .773</td></tr> <tr><td>Ahead /Count:</td><td>AVG .280, OBP .473, OPS .973</td></tr> <tr><td>Behind /Count:</td><td>AVG .217, OBP .224, OPS .551</td></tr> </table>
+        </div>
+        <div class="box">
+            <h3>Boston Red Sox</h3>
+			<table> <tr><td>BOSTON RED SOX:</td><td>67-59</td></tr> <tr><td>R:</td><td>#05 628</td></tr> <tr><td>OPS:</td><td>#02 .768</td></tr> <tr><td>Jarren Duran:</td><td>AVG .293, HR 17, OBP .353, SLG .514</td></tr> <tr><td>Rafael Devers:</td><td>AVG .294, HR 27, OBP .372, SLG .579</td></tr> <tr><td>Ceddanne Rafaela:</td><td>AVG .264, HR 13, OBP .295, SLG .412</td></tr> <tr><td>Connor Wong:</td><td>AVG .286, HR 11, OBP .340, SLG .426</td></tr> <tr><td>Tyler O'Neill:</td><td>AVG .262, HR 22, OBP .351, SLG .524</td></tr> <tr><td>Masataka Yoshida:</td><td>AVG .297, HR 09, OBP .372, SLG .442</td></tr> <tr><td>Wilyer Abreu:</td><td>AVG .265, HR 14, OBP .331, SLG .500 
+</td></tr> <tr><td>.LAST 10:</td><td>AVG .269, HR 14, OPS .776</td></tr> <tr><td>.Masataka Yoshida:</td><td>AVG .424, HR 02, OBP .525, SLG .667</td></tr> <tr><td>.Jarren Duran:</td><td>AVG .293, HR 03, OBP .370, SLG .585</td></tr> <tr><td>.Ceddanne Rafaela:</td><td>AVG .275, HR 00, OBP .293, SLG .350</td></tr> <tr><td>.Triston Casas:</td><td>AVG .286, HR 02, OBP .390, SLG .457</td></tr> <tr><td>.Rafael Devers:</td><td>AVG .238, HR 02, OBP .289, SLG .452</td></tr> <tr><td>.Nick Sogard:</td><td>AVG .216, HR 00, OBP .268, SLG .243</td></tr> <tr><td>VS SP:</td><td></td></tr> <tr><td>RECENT SCORES:</td><td></td></tr> <tr><td>BOS 4 @ HOU 1:</td><td>W- Josh Winckowski  L- Justin Verlander</td></tr> <tr><td>BOS 6 @ HOU 5:</td><td>W- Zack Kelly  L- Kaleb Ort</td></tr> <tr><td>BOS 4 @ HOU 5:</td><td>W- Josh Hader  L- Kenley Jansen</td></tr> <tr><td>BOS 2 @ BAL 4:</td><td>W- Albert Su&#225;rez  L- Kutter Crawford</td></tr> <tr><td>vs RHP:</td><td>AVG .267, OBP .329, OPS .782</td></tr> <tr><td>vs LHP:</td><td>AVG .247, OBP .324, OPS .734</td></tr> <tr><td>Ahead  /Count:</td><td>AVG .309, OBP .481, OPS 1.021</td></tr> <tr><td>Behind /Count:</td><td>AVG .217, OBP .223, OPS .561</td></tr> </table>
+        </div>
+    </div>
+
+</body>
+</html>
+
+

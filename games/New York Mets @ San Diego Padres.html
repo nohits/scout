@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple and Sleek Webpage</title>
+    <style>
+        body {
+            font-family: 'Inconsolata', monospace;
+            margin: 17px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 21px;
+            justify-content: center;
+        }
+        .box {
+			font-size: 0.9em;
+			line-height: 1em;
+			background-color: #fafafa;
+			border: 1px solid #bbb;
+			border-radius: 3px;
+			padding: 20px;
+			margin: 10px 0;
+			box-shadow: 0px 0px 1px 1px rgba(100, 100, 100, 0.2);
+			overflow-x: auto;
+			width: 35%;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        h2, h4 {
+            text-align: center;
+            margin: 2px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 2px;
+            text-align: left;
+            border: 1px solid #ddd;
+        }
+        @media (max-width: 700px) {
+            .box {
+                width: 75%;
+                max-width: none;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <h2>New York Mets @ San Diego Padres</h2>
+    <h4>Paul Blackburn vs Joe Musgrove</h4>
+    <h4>, </h4>
+    <h4>8:40</h4>
+
+
+    <div class="container">
+        <div class="box">
+            <h3>Paul Blackburn</h3>
+            <table> <tr><td>Paul Blackburn RHP:</td><td>AGE 30, PICK #56 2012</td></tr> <tr><td>WL  | ERA | IP:</td><td>5-3  | 4.19 | 73.0</td></tr> <tr><td>AVG | SLG:</td><td>.241 | .409</td></tr> <tr><td>K   | BB:</td><td>7.15 | 2.59</td></tr> <tr><td>BARREL | WIFF:</td><td>.125 | .238</td></tr> <tr><td>STRIKE 1 | MEATBALL:</td><td>.660 | .046</td></tr> <tr><td>LAST 4:</td><td></td></tr> <tr><td>08/18 vs Marlins:</td><td>6.0 IP, ER, 4 K, BB, 4 H</td></tr> <tr><td>08/13 vs Athletics:</td><td>4.0 IP, 6 ER, 4 K, 2 BB, 6 H</td></tr> <tr><td>08/07  @ Rockies:</td><td>6.0 IP, ER, 6 K, 2 BB, 5 H</td></tr> <tr><td>08/02  @ Angels:</td><td>6.0 IP, ER, 6 K, 2 BB, 6 H</td></tr> <tr><td>never faced San Diego Padres:</td><td></td></tr> <tr><td>CAREER:</td><td>426.0 IP, 226 ER, 328 K, 132 BB, 460 H</td></tr> <tr><td>1ST INNING:</td><td>9.0 IP, 10 ER, 7 K, 2 BB, 10 H</td></tr> <tr><td>RUNNER ON:</td><td>AVG .284, OBP .360, SLG .612, BB% 3.93</td></tr> <tr><td>Cutter:</td><td>23%, 89 MPH, 2421 SPIN</td></tr> <tr><td>Four-seam FB:</td><td>20%, 92 MPH, 2184 SPIN</td></tr> <tr><td>Changeup:</td><td>18%, 86 MPH, 1746 SPIN</td></tr> </table>
+        </div>
+        <div class="box">
+            <h3>Joe Musgrove</h3>
+			<table> <tr><td>Joe Musgrove RHP:</td><td>AGE 31, PICK #46 2011</td></tr> <tr><td>WL  | ERA | IP:</td><td>3-4  | 4.97 | 58.0</td></tr> <tr><td>AVG | SLG:</td><td>.288 | .484</td></tr> <tr><td>K   | BB:</td><td>7.91 | 2.79</td></tr> <tr><td>BARREL | WIFF:</td><td>.130 | .284</td></tr> <tr><td>STRIKE 1 | MEATBALL:</td><td>.670 | .071</td></tr> <tr><td>LAST 4:</td><td> </td></tr> <tr><td>08/18  @ Rockies:</td><td>4.1 IP, ER, 6 K, 2 BB, 3 H</td></tr> <tr><td>08/12 vs Pirates:</td><td>4.1 IP, 0 ER, K, BB, 2 H</td></tr> <tr><td>05/26 vs Yankees:</td><td>5.1 IP, ER, 5 K, 0 BB, 6 H</td></tr> <tr><td>05/21  @ Reds:</td><td>3.0 IP, ER, 3 K, 2 BB, 3 H</td></tr> <tr><td>VS OPPONENT:</td><td></td></tr> <tr><td>7/9/23 vs Mets:</td><td>6.0 IP, 0 ER, 7 K, 0 BB, 3 H</td></tr> <tr><td>7/24/22 vs Mets:</td><td>5.1 IP, 4 ER, 4 K, 2 BB, 5 H</td></tr> <tr><td>CAREER:</td><td>1014.1 IP, 427 ER, 1000 K, 257 BB, 939 H</td></tr> <tr><td>1ST INNING:</td><td>12.0 IP, 13 ER, 11 K, 7 BB, 17 H</td></tr> <tr><td>RUNNER ON:</td><td>AVG .277, OBP .367, SLG .458, BB% 3.24</td></tr> <tr><td>Four-seam FB:</td><td>25%, 93 MPH, 2618 SPIN</td></tr> <tr><td>Curveball:</td><td>22%, 81 MPH, 2840 SPIN</td></tr> <tr><td>Sweeper:</td><td>21%, 82 MPH, 2837 SPIN</td></tr> </table>
+			</div>
+    </div>
+
+    <div class="container">
+        <div class="box">
+            <h3>New York Mets</h3>
+			<table> <tr><td>DETROIT TIGERS:</td><td>62-66</td></tr> <tr><td>R:</td><td>#22 529</td></tr> <tr><td>OPS:</td><td>#25 .678</td></tr> <tr><td>Colt Keith:</td><td>AVG .258, HR 11, OBP .308, SLG .386</td></tr> <tr><td>Matt Vierling:</td><td>AVG .253, HR 14, OBP .293, SLG .429</td></tr> <tr><td>Riley Greene:</td><td>AVG .261, HR 18, OBP .353, SLG .483</td></tr> <tr><td>Wenceel Pérez:</td><td>AVG .242, HR 09, OBP .298, SLG .386</td></tr> <tr><td>Mark Canha:</td><td>AVG .242, HR 07, OBP .343, SLG .353</td></tr> <tr><td>Gio Urshela:</td><td>AVG .231, HR 07, OBP .337, SLG .350</td></tr> <tr><td>Javier Báez:</td><td>AVG .325, HR 00, OBP .391, SLG .375 
+</td></tr> <tr><td>.LAST 10:</td><td>AVG .249, HR 11, OPS .706</td></tr> <tr><td>.Colt Keith:</td><td>AVG .317, HR 00, OBP .317, SLG .366</td></tr> <tr><td>.Parker Meadows:</td><td>AVG .306, HR 00, OBP .342, SLG .472</td></tr> <tr><td>.Matt Vierling:</td><td>AVG .275, HR 01, OBP .293, SLG .400</td></tr> <tr><td>.Spencer Torkelson:</td><td>AVG .263, HR 02, OBP .317, SLG .553</td></tr> <tr><td>.Kerry Carpenter:</td><td>AVG .257, HR 05, OBP .278, SLG .686</td></tr> <tr><td>.Gio Urshela:</td><td>AVG .286, HR 01, OBP .375, SLG .464</td></tr> <tr><td>VS SP:</td><td></td></tr> <tr><td>RECENT SCORES:</td><td></td></tr> <tr><td>DET 2 @ CHC 10:</td><td>W- Justin Steele  L- Kenta Maeda</td></tr> <tr><td>DET 8 @ CHC 2:</td><td>W- Brant Hurter  L- Jameson Taillon</td></tr> <tr><td>DET 1 @ CHC 3:</td><td>W- Javier Assad  L- Bryan Sammons</td></tr> <tr><td>NYY 2 @ DET 3:</td><td>W- Beau Brieske  L- Mark Leiter Jr.</td></tr> <tr><td>vs RHP:</td><td>AVG .230, OBP .293, OPS .680</td></tr> <tr><td>vs LHP:</td><td>AVG .235, OBP .297, OPS .667</td></tr> <tr><td>Ahead /Count:</td><td>AVG .276, OBP .448, OPS .956</td></tr> <tr><td>Behind /Count:</td><td>AVG .181, OBP .187, OPS .463</td></tr> </table>
+        </div>
+        <div class="box">
+            <h3>San Diego Padres</h3>
+			<table> <tr><td>SAN DIEGO PADRES:</td><td>72-57</td></tr> <tr><td>R:</td><td>#08 614</td></tr> <tr><td>OPS:</td><td>#07 .744</td></tr> <tr><td>Jurickson Profar:</td><td>AVG .290, HR 20, OBP .388, SLG .472</td></tr> <tr><td>Jackson Merrill:</td><td>AVG .289, HR 18, OBP .319, SLG .486</td></tr> <tr><td>Manny Machado:</td><td>AVG .266, HR 20, OBP .319, SLG .446</td></tr> <tr><td>Jake Cronenworth:</td><td>AVG .246, HR 15, OBP .320, SLG .407</td></tr> <tr><td>Luis Arraez:</td><td>AVG .303, HR 03, OBP .336, SLG .374</td></tr> <tr><td>Ha-Seong Kim:</td><td>AVG .305, HR 03, OBP .332, SLG .374</td></tr> <tr><td>Fernando Tatis Jr.:</td><td>AVG .299, HR 00, OBP .347, SLG .372 
+</td></tr> <tr><td>.LAST 10:</td><td>AVG .262, HR 11, OPS .762</td></tr> <tr><td>.Luis Arraez:</td><td>AVG .317, HR 00, OBP .364, SLG .366</td></tr> <tr><td>.Ha-Seong Kim:</td><td>AVG .367, HR 01, OBP .441, SLG .533</td></tr> <tr><td>.David Peralta:</td><td>AVG .333, HR 02, OBP .389, SLG .576</td></tr> <tr><td>.Fernando Tatis Jr.:</td><td>AVG .273, HR 01, OBP .333, SLG .424</td></tr> <tr><td>.Xander Bogaerts:</td><td>AVG .265, HR 01, OBP .342, SLG .382</td></tr> <tr><td>.Jackson Merrill:</td><td>AVG .237, HR 01, OBP .237, SLG .474</td></tr> <tr><td>VS SP:</td><td></td></tr> <tr><td>RECENT SCORES:</td><td></td></tr> <tr><td>MIN 11 @ SD 4:</td><td>W- Simeon Woods Richardson  L- Matt Waldron</td></tr> <tr><td>MIN 5 @ SD 7:</td><td>W- Tanner Scott  L- Steven Okert</td></tr> <tr><td>MIN 3 @ SD 5:</td><td>W- Michael King  L- Zebby Matthews</td></tr> <tr><td>SD 2 @ COL 3:</td><td>W- Angel Chivilli  L- Bryan Hoeing</td></tr> <tr><td>vs RHP:</td><td>AVG .273, OBP .330, OPS .758</td></tr> <tr><td>vs LHP:</td><td>AVG .246, OBP .316, OPS .708</td></tr> <tr><td>Ahead  /Count:</td><td>AVG .289, OBP .457, OPS .945</td></tr> <tr><td>Behind /Count:</td><td>AVG .238, OBP .245, OPS .585</td></tr> </table>
+        </div>
+    </div>
+
+</body>
+</html>
+
+

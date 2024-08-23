@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple and Sleek Webpage</title>
+    <style>
+        body {
+            font-family: 'Inconsolata', monospace;
+            margin: 17px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 21px;
+            justify-content: center;
+        }
+        .box {
+			font-size: 0.9em;
+			line-height: 1em;
+			background-color: #fafafa;
+			border: 1px solid #bbb;
+			border-radius: 3px;
+			padding: 20px;
+			margin: 10px 0;
+			box-shadow: 0px 0px 1px 1px rgba(100, 100, 100, 0.2);
+			overflow-x: auto;
+			width: 35%;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        h2, h4 {
+            text-align: center;
+            margin: 2px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 2px;
+            text-align: left;
+            border: 1px solid #ddd;
+        }
+        @media (max-width: 700px) {
+            .box {
+                width: 75%;
+                max-width: none;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Houston Astros @ Baltimore Orioles</h2>
+    <h4>Hunter Brown vs Cade Povich</h4>
+    <h4>, </h4>
+    <h4>6:05</h4>
+
+
+    <div class="container">
+        <div class="box">
+            <h3>Hunter Brown</h3>
+            <table> <tr><td>Hunter Brown RHP:</td><td>AGE 25, PICK #166 2019</td></tr> <tr><td>WL  | ERA | IP:</td><td>11-7  | 3.82 | 134.1</td></tr> <tr><td>AVG | SLG:</td><td>.254 | .380</td></tr> <tr><td>K   | BB:</td><td>9.71 | 3.35</td></tr> <tr><td>BARREL | WIFF:</td><td>.102 | .259</td></tr> <tr><td>STRIKE 1 | MEATBALL:</td><td>.590 | .074</td></tr> <tr><td>LAST 4:</td><td></td></tr> <tr><td>08/17 vs Sox:</td><td>7.0 IP, ER, 6 K, 2 BB, 4 H</td></tr> <tr><td>08/11  @ Sox:</td><td>5.1 IP, 2 ER, 9 K, 2 BB, 5 H</td></tr> <tr><td>08/05  @ Rangers:</td><td>6.0 IP, ER, 4 K, 2 BB, 3 H</td></tr> <tr><td>07/30 vs Pirates:</td><td>5.2 IP, 4 ER, 8 K, 2 BB, 9 H</td></tr> <tr><td>VS OPPONENT:</td><td></td></tr> <tr><td>9/19/23 vs Orioles:</td><td>5.1 IP, 7 ER, 5 K, 2 BB, 6 H</td></tr> <tr><td>8/10/23 vs Orioles:</td><td>6.0 IP, 5 ER, 7 K, 0 BB, 8 H</td></tr> <tr><td>CAREER:</td><td>310.1 IP, 147 ER, 345 K, 112 BB, 302 H</td></tr> <tr><td>1ST INNING:</td><td>24.2 IP, 24 ER, 35 K, 10 BB, 38 H</td></tr> <tr><td>RUNNER ON:</td><td>AVG .263, OBP .343, SLG .424, BB% 3.77</td></tr> <tr><td>Four-seam FB:</td><td>36%, 96 MPH, 2295 SPIN</td></tr> <tr><td>Cutter:</td><td>17%, 92 MPH, 2319 SPIN</td></tr> <tr><td>Sinker:</td><td>16%, 96 MPH, 2153 SPIN</td></tr> </table>
+        </div>
+        <div class="box">
+            <h3>Cade Povich</h3>
+			<table> <tr><td>Cade Povich LHP:</td><td>AGE 24, PICK #98 2021</td></tr> <tr><td>WL  | ERA | IP:</td><td>1-6  | 5.77 | 43.2</td></tr> <tr><td>AVG | SLG:</td><td>.266 | .462</td></tr> <tr><td>K   | BB:</td><td>6.39 | 4.74</td></tr> <tr><td>BARREL | WIFF:</td><td>.113 | .209</td></tr> <tr><td>STRIKE 1 | MEATBALL:</td><td>.630 | .085</td></tr> <tr><td>LAST 4:</td><td> </td></tr> <tr><td>08/17 vs Sox:</td><td>6.1 IP, 2 ER, 6 K, 0 BB, 6 H</td></tr> <tr><td>07/29 vs Jays:</td><td>4.1 IP, 3 ER, K, 5 BB, 7 H</td></tr> <tr><td>07/12 vs Yankees:</td><td>5.1 IP, 3 ER, 6 K, 5 BB, 5 H</td></tr> <tr><td>07/06  @ Athletics:</td><td>1.0 IP, 8 ER, K, 3 BB, 5 H</td></tr> <tr><td>never faced Houston Astros:</td><td></td></tr> <tr><td>CAREER:</td><td>43.2 IP, 28 ER, 31 K, 23 BB, 46 H</td></tr> <tr><td>1ST INNING:</td><td>9.0 IP, 13 ER, 9 K, 8 BB, 9 H</td></tr> <tr><td>RUNNER ON:</td><td>AVG .286, OBP .405, SLG .508, BB% 7.56</td></tr> <tr><td>Four-seam FB:</td><td>41%, 92 MPH, 2335 SPIN</td></tr> <tr><td>Curveball:</td><td>19%, 76 MPH, 2431 SPIN</td></tr> <tr><td>Cutter:</td><td>13%, 88 MPH, 2485 SPIN</td></tr> </table>
+			</div>
+    </div>
+
+    <div class="container">
+        <div class="box">
+            <h3>Houston Astros</h3>
+			<table> <tr><td>HOUSTON ASTROS:</td><td>69-58</td></tr> <tr><td>R:</td><td>#12 582</td></tr> <tr><td>OPS:</td><td>#10 .738</td></tr> <tr><td>Jose Altuve:</td><td>AVG .297, HR 16, OBP .350, SLG .435</td></tr> <tr><td>Yordan Alvarez:</td><td>AVG .306, HR 25, OBP .395, SLG .545</td></tr> <tr><td>Yainer Diaz:</td><td>AVG .303, HR 15, OBP .329, SLG .462</td></tr> <tr><td>Jeremy Peña:</td><td>AVG .275, HR 12, OBP .319, SLG .399</td></tr> <tr><td>Alex Bregman:</td><td>AVG .261, HR 20, OBP .319, SLG .448</td></tr> <tr><td>Jake Meyers:</td><td>AVG .231, HR 12, OBP .299, SLG .386</td></tr> <tr><td>Mauricio Dubón:</td><td>AVG .249, HR 04, OBP .280, SLG .358 
+</td></tr> <tr><td>.LAST 10:</td><td>AVG .245, HR 11, OPS .696</td></tr> <tr><td>.Alex Bregman:</td><td>AVG .386, HR 05, OBP .438, SLG .818</td></tr> <tr><td>.Yainer Diaz:</td><td>AVG .341, HR 04, OBP .357, SLG .634</td></tr> <tr><td>.Jeremy Peña:</td><td>AVG .342, HR 03, OBP .366, SLG .632</td></tr> <tr><td>.Yordan Alvarez:</td><td>AVG .333, HR 01, OBP .442, SLG .472</td></tr> <tr><td>.Jose Altuve:</td><td>AVG .279, HR 01, OBP .326, SLG .372</td></tr> <tr><td>.Victor Caratini:</td><td>AVG .355, HR 01, OBP .412, SLG .452</td></tr> <tr><td>VS SP:</td><td></td></tr> <tr><td>RECENT SCORES:</td><td></td></tr> <tr><td>BOS 4 @ HOU 1:</td><td>W- Josh Winckowski  L- Justin Verlander</td></tr> <tr><td>BOS 6 @ HOU 5:</td><td>W- Zack Kelly  L- Kaleb Ort</td></tr> <tr><td>BOS 4 @ HOU 5:</td><td>W- Josh Hader  L- Kenley Jansen</td></tr> <tr><td>CWS 0 @ HOU 2:</td><td>W- Framber Valdez  L- Ky Bush</td></tr> <tr><td>vs RHP:</td><td>AVG .261, OBP .322, OPS .741</td></tr> <tr><td>vs LHP:</td><td>AVG .259, OBP .317, OPS .729</td></tr> <tr><td>Ahead /Count:</td><td>AVG .294, OBP .461, OPS .978</td></tr> <tr><td>Behind /Count:</td><td>AVG .222, OBP .228, OPS .547</td></tr> </table>
+        </div>
+        <div class="box">
+            <h3>Baltimore Orioles</h3>
+			<table> </table>
+        </div>
+    </div>
+
+</body>
+</html>
+
+
